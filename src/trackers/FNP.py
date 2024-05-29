@@ -127,8 +127,8 @@ class FNP():
         if distributor_id != 0:
             data['distributor_id'] = distributor_id
         if meta.get('category') == "TV":
-            data['season_number'] = meta.get('season_int', '0')
-            data['episode_number'] = meta.get('episode_int', '0')
+            data['season_number'] = int(meta.get('season_int', '0'))
+            data['episode_number'] = int(meta.get('episode_int', '0'))
         headers = {
             'User-Agent': f'Upload Assistant/2.1 ({platform.system()} {platform.release()})'
         }
