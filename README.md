@@ -1,7 +1,8 @@
 # Upload Assistant (CvT Edition)
 
-I have no clue what I'm doing so thought I'd fork it, bork it and, duct tape it back together to get people to sing my praises. 
-Hopefully it works and makes your life simplier.
+Fork of a fork. Only modified one thing and that was to resolve one issue on one tracker
+['The season number must be an integer.']
+
 
 ## What It Can Do:
   - Generates and Parses MediaInfo/BDInfo.
